@@ -2,7 +2,7 @@
 
 This is a kaggle contest I participated in for my STAT 441 (Classification) course at UW. We used a dataset to predict answers to the question: "On a scale of 1 to 10, how right or poor do you think you are right now (1 being very poor and 10 being very rich". We got second place out of all participants in our class (total of 40 teams).
 
-![Alt text](./imgs/kaggle-constest-details.png)
+![Alt text](/imgs/kaggle-contest-details.png)
 
 Each observation is a survey response of one person. Each person is identified by 3 codes: "psu" (Primary Sampling Unit), "hh" (Household), and "idcode". 
 
