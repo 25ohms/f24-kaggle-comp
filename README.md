@@ -6,7 +6,7 @@ This is a kaggle contest I participated in for my STAT 441 (Classification) cour
 
 Each observation is a survey response of one person. Each person is identified by 3 codes: "psu" (Primary Sampling Unit), "hh" (Household), and "idcode". 
 
-We were evaluated on how accurate our response for the question was based on the training dataset. After data cleaning and transformation, we were left with 5334 observations in total, in which we employed 5-fold Cross Validation to improve our model robustness.
+We were evaluated on how accurate our response for the question was based on the training dataset. After data cleaning and transformation, we were left with 5334 observations in total, in which we employed 5-fold Cross Validation to improve our model robustness. We attempted different modeling techniques: **Logistic Regression**, **kNN**, **Random Forest**, and **XGBoost**. In the end, an **Ensemble** classifier that utilized Logistic Regression, kNN and XGBoost performed the best.
 
 
 ## Evaluation metric
